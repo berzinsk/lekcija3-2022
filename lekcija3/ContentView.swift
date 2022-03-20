@@ -70,7 +70,7 @@ struct MapView: UIViewRepresentable {
     return mapView
   }
 
-  func // (_ uiView: MKMapView, context: Context) {
+  func updateUIView(_ uiView: MKMapView, context: Context) {
     uiView.showsUserLocation = isUserLocationVisible
   }
 
